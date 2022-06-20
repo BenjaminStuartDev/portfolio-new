@@ -5,7 +5,16 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'cornflower-blue': '#91B9F5',
+        'platinum-silver': '#CECECE',
+      },
+      fontFamily: {
+        'montserrat': ['Montserrat'],
+        'inter': ['Inter'],
+      }
+    },
   },
   plugins: [],
 }
