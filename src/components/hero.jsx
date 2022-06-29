@@ -7,9 +7,14 @@ export default function Hero({ name, role }) {
 
       <div className="h-screen w-full lg:w-1/2 flex flex-col justify-center">
         <h1 className="text-3xl md:text-5xl text-white font-montserrat inline-block ">
-          {name} <span className="font-inter pl-4">|</span>
+          <span>
+            {name}
+            <span className="font-inter pl-4">|</span>
+          </span>
         </h1>
-        <h2 className="text-1xl md:text-2xl text-platinum-silver font-inter">{role}</h2>
+        <h2 className="text-1xl md:text-2xl text-platinum-silver font-inter">
+          {role}
+        </h2>
       </div>
 
       {/* The right section with arrow svg */}

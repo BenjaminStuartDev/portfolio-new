@@ -14,12 +14,14 @@ module.exports = {
         'platinum-silver': '#CECECE',
         'wild-sand': '#F4F4F4',
         'mine-shaft': '#222222',
+        'terminal-grey': '#C8C7C7',
       },
       fontFamily: {
         'montserrat': ['Montserrat'],
         'inter': ['Inter'],
         'oswald': ['Oswald'],
         'open-sans': ['Open Sans'],
+        'roboto-mono': ['Roboto Mono'],
         
       }
     },
